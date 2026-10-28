@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Password Reset & 2FA Recovery Guide",
+    "category": "Account Access",
+    "content": "To reset your password, visit the login page and click 'Forgot Password'. You will receive an automated reset link via email within 5 minutes. If your account is protected by Two-Factor Authentication (2FA) and you lost access to your authenticator app, use your emergency backup recovery codes generated during initial enrollment. If you do not have backup codes, verify your identity by replying to this ticket with your account registered phone number and the last 4 digits of the billing method on file.",
+    "tags": "password, reset, 2fa, login, credentials, locked",
+    "is_approved": 1
+  },
+  {
+    "title": "Account Locked Due to Multiple Failed Attempts",
+    "category": "Account Access",
+    "content": "For security purposes, accounts are automatically locked for 30 minutes following 5 consecutive failed login attempts. You can wait for the 30-minute lockout window to expire or initiate an instant password reset to unlock your account immediately. If you suspect unauthorized access attempts, notify our Accounts & Security team right away.",
+    "tags": "lockout, locked, failed login, security",
+    "is_approved": 1
+  },
+  {
+    "title": "Resolving Application Crashes and Performance Freezes",
+    "category": "Technical Support",
+    "content": "If the desktop or web application crashes unexpectedly, follow these diagnostic steps: 1) Clear local cache and cookies or restart the desktop client. 2) Ensure your client is updated to the latest release. 3) Check system hardware acceleration settings. 4) Collect the latest error log file located at %APPDATA%/logs/client.log and attach it to your support reply so our engineering team can isolate the crash stack trace.",
+    "tags": "crash, freeze, bug, technical, slow, error, stack trace",
+    "is_approved": 1
+  },
+  {
+    "title": "Troubleshooting API 500 Internal Server Errors",
+    "category": "Technical Support",
+    "content": "An HTTP 500 error indicates an unhandled server-side exception during request processing. Please verify that your JSON payload conforms to the API schema specifications. Check the 'X-Request-ID' header returned in the response header and include it when reporting the incident so we can trace the exact event in our backend server logs.",
+    "tags": "api, 500, server error, endpoint, timeout",
+    "is_approved": 1
+  },
+  {
+    "title": "Downloading Invoices and Updating Payment Methods",
+    "category": "Billing & Payments",
+    "content": "You can view and download all past VAT/tax invoices by navigating to Settings -> Billing -> Invoices tab. To update your credit card or payment information, select 'Payment Methods', click 'Add New Card', and set it as default before removing the outdated card. All transactions are securely encrypted via PCI-compliant tokenization.",
+    "tags": "invoice, billing, payment, credit card, receipt, tax",
+    "is_approved": 1
+  },
+  {
+    "title": "Subscription Cancellation and Refund Policy",
+    "category": "Billing & Payments",
+    "content": "We offer a 14-day money-back guarantee for all newly initiated annual and monthly subscriptions. If you wish to cancel your subscription, go to Settings -> Subscription -> Cancel Plan. If you are requesting a refund within the 14-day eligibility window, our billing team will review and process the refund to your original payment method within 3 to 5 business days.",
+    "tags": "refund, cancel, subscription, charge, dispute",
+    "is_approved": 1
+  },
+  {
+    "title": "Product Feature Requests & Public Roadmap",
+    "category": "Feature Request",
+    "content": "We appreciate user feedback and continuously improve our platform. To propose a new capability or upvote existing community suggestions, visit our Product Roadmap portal at feedback.internal.support. Our product management team reviews high-priority requests during bi-weekly sprint planning cycles.",
+    "tags": "feature, roadmap, suggestion, enhancement, idea",
+    "is_approved": 1
+  },
+  {
+    "title": "Support Hours, SLA, and Contact Directory",
+    "category": "General Inquiry",
+    "content": "Our global customer support desk operates Monday through Friday, 8:00 AM to 8:00 PM EST. Critical severity issues (system outages) are monitored 24/7 by our on-call operations team. Standard inquiry response SLA is under 24 business hours, while High and Critical tickets receive initial response within 2 hours.",
+    "tags": "hours, contact, sla, inquiry, support, operating hours",
+    "is_approved": 1
+  }
+]
